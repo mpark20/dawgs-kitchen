@@ -39,7 +39,7 @@ const App = () => {
       <div id="navbar">
         <ul className="nav">
           <li id="app-title"><NavLink exact to="/">DUBS GO GREEN</NavLink></li>
-          <li>{user ? <button onClick={logout} className="logout-btn">LOGOUT</button> : <NavLink to="/login"><button>login</button></NavLink>}</li>
+          <li >{user ? <button onClick={logout} className="logout-btn">LOGOUT</button> : <NavLink to="/login"><button className="logout-btn" style={{margin:"0"}}>login</button></NavLink>}</li>
           <li><NavLink to="/challenges">challenges</NavLink></li>
           <li><NavLink exact to="/">home</NavLink></li>
           

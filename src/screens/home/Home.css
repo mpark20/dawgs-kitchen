@@ -1,0 +1,26 @@
+#wrapper {
+    width: 80%; 
+    margin: 50px auto;
+    background-color: #9CAF88;
+    padding: 5%;
+}
+#wrapper1 {
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+}
+#wrapper2 {
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+}
+#wrapper3 {
+    display: block;
+    width: 100%;
+    margin: 0; 
+}
+.textbox {
+    background-color: #ededed;
+    border: solid 0.1px;
+    border-radius: 3px; 
+    margin: 5%;
+    padding: 5%;
+}

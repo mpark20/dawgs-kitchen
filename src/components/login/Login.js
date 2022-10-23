@@ -87,7 +87,6 @@ const Login = () => {
 
     <div className="signin" id="signup">
       <h2 style={{display: "inline", float: "left", padding: "8px 0"}}>sign up</h2>
-      <img src={Mascot} width="70" id="mascot"/>
       <div>
         <input type="text" className="text-field" id="email" placeholder="e-mail address"/>
         <input type="text" className="text-field" id="username" placeholder="username"/>
