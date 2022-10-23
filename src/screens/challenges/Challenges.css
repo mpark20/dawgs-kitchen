@@ -1,0 +1,60 @@
+  h1 {
+    color: rgb(255, 253, 208);
+    text-align: center;
+    font-stretch: ultra-expanded;
+    font-size: 3cm
+  }
+  h2 {
+    color: rgb(255, 253, 208);
+    text-align: center;
+    margin: 15px;
+    font-stretch: ultra-expanded;
+    font-size: 1cm
+  }
+  p {
+    color: rgb(255, 253, 208);
+  }
+  hr.solid {
+    border-top: 3px solid rgb(255, 253, 208);
+  }
+  .challenges-container {
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+  }
+  .checklist {
+    background-color: rgb(156,175,136);
+    height: auto; 
+    margin: 20px 10px;
+    padding: 20px 0; 
+    display: inline; 
+  }
+  .puzzle {
+    background-color: rgb(156,175,136);
+    height: auto;
+    margin: 20px 10px; 
+    padding: 20px 0; 
+  }
+  .individualcl {
+    color: rgb(255, 253, 208);
+    font-variant: small-caps;
+    font-family:'Courier New', Courier, monospace;
+    font-stretch: ultra-expanded;
+    font-size: 1cm;
+    padding: 10px; 
+  }
+  .jigsaw {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10% 20%;
+    border: solid 0.5px;
+    background-image: url("../../img/pz9.png");
+    background-size:cover;
+    background-position:center;
+  }
+  .jigsaw-piece {
+    border: solid 0.5px;
+    padding: 10%;
+    aspect-ratio: 1/1;
+    background-color: #426c54;
+    transition: background-color 700ms;
+  }

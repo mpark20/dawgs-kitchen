@@ -19,5 +19,13 @@
     background-color: #9CAF88;
 }
 #mascot {
-    position: absolute; 
+    float: right; 
+}
+#toggleSignup {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+}
+#toggleSignup:hover {
+    opacity: 0.5;
 }

@@ -1,17 +1,14 @@
-import { initializeApp } from "firebase/app"
 
-
+import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDn9aRtDXxPwEm-BP6mI_7PKCvWfOg2vvw",
-  authDomain: "dawgs-kitchen.firebaseapp.com",
-  projectId: "dawgs-kitchen",
-  storageBucket: "dawgs-kitchen.appspot.com",
-  messagingSenderId: "697488964844",
-  appId: "1:697488964844:web:b0f2af09223684a1a7f9c9",
-  measurementId: "G-5LDH65GWWC"
+  apiKey: "AIzaSyAdQP4xna-SOBoW7fpL4mh8RDm9QyjmkqE",
+  authDomain: "dubs-go-green.firebaseapp.com",
+  projectId: "dubs-go-green",
+  storageBucket: "dubs-go-green.appspot.com",
+  messagingSenderId: "17043376972",
+  appId: "1:17043376972:web:5322f33e2150b621e8dde9",
+  measurementId: "G-MTVJ46D4G5"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
