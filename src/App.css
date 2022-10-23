@@ -1,3 +1,12 @@
-.App {
-  background-color: white;
+@font-face {
+  font-family: courier;
+  src: url("./fonts/CourierPrime-Regular.ttf");
 }
+body {
+  background-color: #426c54;
+  font-family: courier; 
+}
+button {
+  font-family: inherit; 
+}
+
