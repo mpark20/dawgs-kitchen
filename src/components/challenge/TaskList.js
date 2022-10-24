@@ -84,7 +84,12 @@ const TaskList = (props) => {
             <div key={task.id}>
                 <button className="task-entry" onClick={() => toggleTaskDesc(index)} >{task.name}</button>
                 <div className="task-description" style={{display:"none"}}>
-                    <button onClick={() => completeTask(index)} className="complete-task">I completed this task</button>
+                    <div className="desc-wrapper">
+                    <div style={{margin: "5% 0"}}>{task.desc}</div>
+                    <div style={{margin: "5% 0"}}>Upload a picture of you performing this task!</div>
+                    <input type="file" style={{fontFamily: "courier", width: "100%"}}/>
+                    <button style={{margin: "5% 0"}} onClick={() => completeTask(index)} className="complete-task">I completed this task</button>
+                    </div>
                 </div>
             </div>
             

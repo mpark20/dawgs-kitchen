@@ -38,7 +38,17 @@
     
   }
   .task-description {
+    font-stretch: normal;
+    font-variant: normal;
+    font-size: 14px;
     width: 70%;
     margin: auto;
+    background-color: rgb(255, 253, 208);
+    color: black;
   }
+  .desc-wrapper {
+    padding: 5%; 
+  }
+ 
+  
   

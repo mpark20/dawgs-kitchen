@@ -1,9 +1,11 @@
 import "./Home.css";
 import Mascot from "../../img/little-man.png";
+import Mascot2 from "../../img/little-buddy.png"
+import HeaderFont from "../../fonts/Manrope-VariableFont_wght.ttf"
 const Home = () => {
     return(
         <>
-        <h1>Home</h1>
+        <h1 className="heading">HOME: go green this quarter</h1>
         <div id="wrapper">
         <div id="wrapper1">
         <div>
@@ -25,7 +27,7 @@ const Home = () => {
             together, we can work to sustain the environment for future generations.
         </div>
         <div>
-            <img src={Mascot} width="150" style={{float:"right"}}/>
+            <img src={Mascot2} width="150" style={{float:"right"}}/>
         </div>
         </div>
 
